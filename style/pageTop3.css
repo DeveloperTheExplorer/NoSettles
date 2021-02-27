@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: arial, Verdana, Geneva, sans-serif;
+  left: 0;
+  overflow: hidden;
+  position: relative;
+}
+#pageTop1 {
+  background:url(headerSliver.png)repeat-x;
+  background-size: contain;
+  background-position: center center;
+  height: 4.213em;
+  width: 100%;
+  border-bottom: 3px solid #2E2D2D;
+}
+#pageTop > #pageTopTools {
+	width: 2%;
+	margin-left: 1%;
+	height: 6.313em;
+	float: left;
+}
+#pageTop > #pageTopTools > .pageTopToolbar {
+	background:url(../images/tools.png) no-repeat;
+	width: 2em;
+	height: 2em;
+	float: left;
+	margin-top: 3.750em;
+	margin-right: 0;
+	padding: 0;
+	cursor: pointer;
+}
+#pageTop1 > #pageTopWrap {
+  width: 95%;
+  margin: 0px auto;
+  height: 6.313em;
+  padding-right: 3em;
+}
+#pageTop > #pageTopWrap2 {
+  width: 93.750em;
+  margin: 0px auto;
+  height: 6.313em;
+}
+.pageTopLogo {
+  background:url(Logo.png) no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-top: -1px;
+  height: 4.250em;
+  width: 4.250em;
+  float: left;
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.pageTopLogo:hover {
+  opacity: 0.85;
+}
+#pageTop1 > #pageTopWrap > #pageTopRest {
+  float: right;
+  height: 100%;
+  width: 90%;
+}
+#pageTop > #pageTopWrap2 > #pageTopRest2 {
+  float: left;
+  height: 6.250em;
+  width: 80%;
+}
+#pageTop1 > #pageTopWrap > #up {
+  margin-top: 3px;
+  height: 20%;
+  display: block;
+  padding: 0;
+  width: 50%;
+  float: right;
+  display: block;
+}
+#pageTop1 > #pageTopWrap > #middle {
+  height: 22%;
+  display: block;
+  margin-top: 5px;
+  width: 60%;
+  float: right;
+}
+#pageTop1 > #pageTopWrap > #down {
+	height: 10%;
+	display: block;
+	padding: 0;
+	width: 60%;
+	margin-top: -20px;
+	margin-left: 130px;
+}
+.logIn {
+	color: #fff;
+	background-color: #09F;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));
+	border-radius: 5px;
+	border: 0.063em solid #09F;
+	height: 20px;
+	width: 43px;
+	white-space: nowrap;
+	font-size: 10px;
+	line-height: 0.688em;
+	cursor: pointer;
+	-webkit-appearance: button;
+	border-collapse: collapse;
+	border-spacing: 0;
+	transition: background-color 0.5s ease;
+}
+.textBox {
+	height: 20px;
+	border-radius: 5px;
+	box-shadow: inset 0 0.063em 0 #eee,#CCC 0 0.063em 0;
+	box-sizing: border-box;
+	font-size: 12px;
+	padding: 0px 5px;
+	line-height: normal;
+	border-collapse: collapse;
+	border-spacing: 0;
+	transition: background-color 0.5s ease;
+}
+.textBox:hover {
+	background-color: #EFEFEF;
+}
+.searchBox {
+	width: 35%;
+	height: 25%;
+	float: right;
+	padding: 3px;
+	margin-left: 10px;
+}
+.textBox1 {
+	width: 151px;
+	font-size: 10px;
+	padding: 0;
+}
+.textbox2 {
+	font-size: 10px;
+	width: 100px;
+	margin-right: 3px;
+	font-size: 10px;
+}
+.logIn:hover {
+	opacity: 0.85;
+	background-color: #0073C0;	
+}
+.links{
+	text-decoration: none;
+	color: #00F;
+	font-size: 11px;
+	transition: color, padding 0.5s ease;
+}
+.links:hover {
+	text-decoration: none;
+	color: #00ffff;
+	padding: 0.188em;
+}
+.link1 {
+	margin-right: 75px;
+}
+.linkTop {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px 10px;
+	color: #FFF;
+	margin-top: 50px;
+}
+.linkTop:hover {
+	background-color: #09F;
+	border-radius: 4px;
+}
+.linkTop1 {
+	margin-right: 0;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.linkTop2 {
+	margin-left: 0;
+}
+.space {
+	height: 65px;
+}
+.right {
+	float: right;
+}
+
+/*javascript things!!!*/
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0;
+  background:url(../images/tools.png) no-repeat;
+  width: 2em;
+  height: 2em;
+  float: left;
+  margin-top: 3.750em;
+  margin-right: -20px;
+}
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
